@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <title>Katrina, I Love You</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body class="fade-in">
 
 <audio id="bg-music" loop>
@@ -26,9 +28,7 @@
 <button class="top-button" onclick="goToGallery()">Our Memories</button>
 
 <div class="hero">
-  <h1 class="neon-text">
-    Katrina, I love you and here is why.
-  </h1>
+  <h1 class="neon-text">Katrina, I love you and here is why.</h1>
 
   <button class="main-button" onclick="startLove()">
     click for my love
@@ -38,7 +38,9 @@
 <section id="love-text">
   <div id="scroll-words">Ceow</div>
   <h2 class="section-title">My Love</h2>
-  <p class="section-text">I’ve been thinking about you constantly, about us, and about everything I could have done better. I want you to know that this message comes from a place of honesty, humility, and deep love. I understand that trust is fragile, and once it’s shaken, it takes time, consistency, and real effort to rebuild. I am not afraid of that work. I welcome it, because you are worth it to me in every way.
+  <p class="section-text">
+    <!-- your long love text stays exactly as-is -->
+    I’ve been thinking about you constantly, about us, and about everything I could have done better. I want you to know that this message comes from a place of honesty, humility, and deep love. I understand that trust is fragile, and once it’s shaken, it takes time, consistency, and real effort to rebuild. I am not afraid of that work. I welcome it, because you are worth it to me in every way.
 
 I want to acknowledge your feelings fully. I know you’re hurting, confused, and unsure, and I don’t blame you for that. Your emotions make sense, and I respect them. I’m not here to rush you, pressure you, or minimize what you’re going through. I just want you to know that I see you, I hear you, and I care deeply about how you feel.
 
@@ -56,8 +58,27 @@ I dont want to rush you. I won’t leave. I’ll be here, choosing honesty, choo
 
 Always.
 
-Jack "lovely" Ferry.</p>
+Jack "lovely" Ferry.
+  </p>
 </section>
+
+<!-- Floating Love Button -->
+<button class="floating-love-btn" onclick="openLoveLetter()">💌</button>
+
+<!-- Love Letter Modal -->
+<div id="love-modal" class="love-modal">
+  <div class="love-modal-content">
+    <div id="rose" class="rose">🌹</div>
+    <p id="seen-note" style="opacity:0; font-size:0.9rem; margin-top:10px;">
+  💚 You’ve read this one before
+</p>
+
+
+    <h2>For You 💕</h2>
+    <p id="love-letter"></p>
+    <button onclick="closeLoveLetter()">Close</button>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>
