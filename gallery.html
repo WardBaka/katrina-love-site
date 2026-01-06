@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Pictures</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- Fullscreen modal -->
+<div id="image-modal" class="modal">
+  <span id="prev" class="arrow">&#10094;</span>
+  <img id="modal-img" src="" alt="Full View">
+  <span id="next" class="arrow">&#10095;</span>
+</div>
+
+
+<body class="fade-in">
+
+<audio id="bg-music" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-button" onclick="toggleMusic()">⏸</button>
+
+<input
+  type="range"
+  class="volume-slider"
+  min="0"
+  max="1"
+  step="0.01"
+  value="0.4"
+  oninput="setVolume(this.value)"
+>
+
+<button class="top-button" onclick="goHome()">Back</button>
+
+<h1 class="gallery-title">Our Memories 💖</h1>
+
+<div class="gallery">
+  <img src="images/image00001.jpeg" alt="Memory 1">
+  <img src="images/image00002.jpeg" alt="Memory 2">
+  <img src="images/image00003.jpeg" alt="Memory 3">
+  <img src="images/image00004.jpeg" alt="Memory 4">
+  <img src="images/image00005.jpeg" alt="Memory 5">
+  <img src="images/image00006.jpeg" alt="Memory 6">
+  <img src="images/image00007.jpeg" alt="Memory 7">
+  <img src="images/image00008.jpeg" alt="Memory 8">
+  <img src="images/image00009.jpeg" alt="Memory 9">
+  <img src="images/image00010.jpeg" alt="Memory 10">
+  <img src="images/image00011.jpeg" alt="Memory 11">
+  <img src="images/image00012.jpeg" alt="Memory 12">
+  <img src="images/image00013.jpeg" alt="Memory 13">
+  <img src="images/image00014.jpeg" alt="Memory 14">
+  <img src="images/image00015.jpeg" alt="Memory 15">
+  <img src="images/image00016.jpeg" alt="Memory 16">
+  <img src="images/image00017.jpeg" alt="Memory 17">
+  <img src="images/image00018.jpeg" alt="Memory 18">
+  <img src="images/image00019.jpeg" alt="Memory 19">
+  <img src="images/image00020.jpeg" alt="Memory 20">
+  <img src="images/image00021.jpeg" alt="Memory 21">
+  <img src="images/image00022.jpeg" alt="Memory 22">
+  <img src="images/image00023.jpeg" alt="Memory 23">
+  <img src="images/image00024.jpeg" alt="Memory 24">
+  <img src="images/image00025.jpeg" alt="Memory 25">
+  <img src="images/image00026.jpeg" alt="Memory 26">
+  <img src="images/image00027.jpeg" alt="Memory 27">
+  <img src="images/image00028.jpeg" alt="Memory 28">
+  <img src="images/image00029.jpeg" alt="Memory 29">
+  <img src="images/image00030.jpeg" alt="Memory 30">
+  <img src="images/image00031.jpeg" alt="Memory 31">
+  <img src="images/image00032.jpeg" alt="Memory 32">
+  <img src="images/image00033.jpeg" alt="Memory 33">
+  <img src="images/image00034.jpeg" alt="Memory 34">
+  <img src="images/image00035.jpeg" alt="Memory 35">
+  <img src="images/image00036.jpeg" alt="Memory 36">
+  <img src="images/image00037.jpeg" alt="Memory 37">
+  <img src="images/image00038.jpeg" alt="Memory 38">
+  <img src="images/image00039.jpeg" alt="Memory 39">
+  <img src="images/image00040.jpeg" alt="Memory 40">
+  <img src="images/image00041.jpeg" alt="Memory 41">
+  <img src="images/image00042.jpeg" alt="Memory 42">
+  <img src="images/image00043.jpeg" alt="Memory 43">
+  <img src="images/image00044.jpeg" alt="Memory 44">
+  <img src="images/image00045.jpeg" alt="Memory 45">
+  <img src="images/image00046.jpeg" alt="Memory 46">
+  <img src="images/image00047.jpeg" alt="Memory 47">
+  <img src="images/image00048.jpeg" alt="Memory 48">
+  <img src="images/image00049.jpeg" alt="Memory 49">
+  <img src="images/image00050.jpeg" alt="Memory 50">
+  <img src="images/image00051.jpeg" alt="Memory 51">
+  <img src="images/image00052.jpeg" alt="Memory 52">
+  <img src="images/image00053.jpeg" alt="Memory 53">
+  <img src="images/image00054.jpeg" alt="Memory 54">
+  <img src="images/image00055.jpeg" alt="Memory 55">
+  <img src="images/image00056.jpeg" alt="Memory 55">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
